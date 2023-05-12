@@ -14,7 +14,7 @@ struct ContentView: View {
                     .tabItem {
                         Image(systemName: "doc.text.image")
                             .renderingMode(.template)
-                        Text("Vandaag")
+                        Text("Openbaar")
                     }
                 
                 NavigationView {
