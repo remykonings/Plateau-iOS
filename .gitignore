@@ -1,0 +1,5 @@
+# Individual Files
+*.DS_Store
+UserInterfaceState.xcuserstate
+
+# Asset Directories
