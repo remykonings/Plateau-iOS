@@ -31,15 +31,13 @@ struct GedeeldView: View {
                                 Text(task.title)
                                     .font(Font.taskText)
                                 Spacer()
-                                Button {
-                                    // TODO: Add new task
-                                } label: {
-                                    Image(systemName: "icloud.and.arrow.down")
-                                        .resizable()
-                                        .scaledToFit()
-                                        .frame(width: 28, height: 28)
-                                        .foregroundColor(Color.accentColor)
-                                }
+                                NavigationLink(destination: CameraView(filename: task.filename)) {
+                                            Image(systemName: "camera")
+                                                .resizable()
+                                                .scaledToFit()
+                                                .frame(width: 28, height: 28)
+                                                .foregroundColor(Color.accentColor)
+                                        }
                             }
                             Divider()
                                 .padding(.vertical, 4)
