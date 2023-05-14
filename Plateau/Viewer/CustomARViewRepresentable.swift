@@ -1,16 +1,15 @@
-//
-//  CustomARViewRepresentable.swift
-//  Plateau
-//
-//  Created by Remy Konings on 03/05/2023.
-//
-
 import SwiftUI
 
 struct CustomARViewRepresentable: UIViewRepresentable {
+    
+    var filename: String
+    
     func makeUIView(context: Context) -> CustomARView {
-        return CustomARView()
+        let customARView = CustomARView(frame: UIScreen.main.bounds, filename: filename)
+        return customARView
     }
     
-    func updateUIView(_ uiView: CustomARView, context: Context) { }
+    func updateUIView(_ uiView: CustomARView, context: Context) {
+        // No need to update the view
+    }
 }

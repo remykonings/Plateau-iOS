@@ -27,6 +27,9 @@
 		ADA80BB529F403A700CB04C5 /* GedeeldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA80BB429F403A700CB04C5 /* GedeeldView.swift */; };
 		ADA80BB729F403DC00CB04C5 /* Gedeeld.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA80BB629F403DC00CB04C5 /* Gedeeld.swift */; };
 		ADA80BB929F4149800CB04C5 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA80BB829F4149800CB04C5 /* SplashScreenView.swift */; };
+		ADE1F3972A1140B000B9E72F /* hawaii.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3942A1140B000B9E72F /* hawaii.usdz */; };
+		ADE1F3982A1140B000B9E72F /* salami.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3952A1140B000B9E72F /* salami.usdz */; };
+		ADE1F3992A1140B000B9E72F /* ananas.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3962A1140B000B9E72F /* ananas.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,9 @@
 		ADA80BB429F403A700CB04C5 /* GedeeldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GedeeldView.swift; sourceTree = "<group>"; };
 		ADA80BB629F403DC00CB04C5 /* Gedeeld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gedeeld.swift; sourceTree = "<group>"; };
 		ADA80BB829F4149800CB04C5 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		ADE1F3942A1140B000B9E72F /* hawaii.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = hawaii.usdz; sourceTree = "<group>"; };
+		ADE1F3952A1140B000B9E72F /* salami.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = salami.usdz; sourceTree = "<group>"; };
+		ADE1F3962A1140B000B9E72F /* ananas.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ananas.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,9 @@
 		AD20308729F579AA0000AA17 /* Openbaar */ = {
 			isa = PBXGroup;
 			children = (
+				ADE1F3962A1140B000B9E72F /* ananas.usdz */,
+				ADE1F3942A1140B000B9E72F /* hawaii.usdz */,
+				ADE1F3952A1140B000B9E72F /* salami.usdz */,
 				AD21EDCF2A0310AD001C860E /* gramophone.usdz */,
 			);
 			path = Openbaar;
@@ -264,8 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				83147EA028906DBA0038BE2A /* Preview Assets.xcassets in Resources */,
+				ADE1F3992A1140B000B9E72F /* ananas.usdz in Resources */,
 				83147E9D28906DBA0038BE2A /* Assets.xcassets in Resources */,
+				ADE1F3972A1140B000B9E72F /* hawaii.usdz in Resources */,
 				83147EA928906F500038BE2A /* Inter-Bold.otf in Resources */,
+				ADE1F3982A1140B000B9E72F /* salami.usdz in Resources */,
 				83147EAA28906F500038BE2A /* Inter-SemiBold.otf in Resources */,
 				AD21EDD02A0310AD001C860E /* gramophone.usdz in Resources */,
 			);

@@ -1,27 +1,29 @@
-//
-//  CustomARView.swift
-//  Plateau
-//
-//  Created by Remy Konings on 03/05/2023.
-//
-
 import ARKit
 import RealityKit
 import SwiftUI
 
 class CustomARView: ARView {
+    
+    let filename: String
+        
     required init(frame frameRect: CGRect) {
+        self.filename = ""
         super.init(frame: frameRect)
+    }
+    
+    required init(frame frameRect: CGRect, filename: String) {
+        self.filename = filename
+        super.init(frame: frameRect)
+        loadModel(filename: filename)
     }
     
     dynamic required init?(coder decoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    convenience init() {
-        self.init(frame: UIScreen.main.bounds)
-        
-        placeModel()
+    convenience init(filename: String) {
+        self.init(frame: UIScreen.main.bounds, filename: filename)
+        loadModel(filename: filename)
     }
     
     func configuration() {
@@ -38,9 +40,9 @@ class CustomARView: ARView {
         scene.addAnchor(coordinateAnchor)
     }
     
-    func placeModel() {
+    func loadModel(filename: String) {
         // load an entity from a .usdz file
-        if let entity = try? Entity.load(named: "gramophone") {
+        if let entity = try? Entity.load(named: filename) {
             
             // Create a collision component that matches the entity's shape
             let collisionShape = ShapeResource.generateBox(size: entity.visualBounds(relativeTo: nil).extents)
