@@ -15,6 +15,6 @@ extension Font {
     
     static var taskAlarmText: Font {
         
-        return Font.custom("Inter-SemiBold", size: 12)
+        return Font.custom("Inter-SemiBold", size: 13)
     }
 }
