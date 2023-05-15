@@ -20,16 +20,35 @@
 		AD21EDCA2A02FD49001C860E /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21EDC92A02FD49001C860E /* CameraView.swift */; };
 		AD21EDCC2A030089001C860E /* CustomARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21EDCB2A030089001C860E /* CustomARView.swift */; };
 		AD21EDCE2A0301DA001C860E /* CustomARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21EDCD2A0301DA001C860E /* CustomARViewRepresentable.swift */; };
-		AD21EDD02A0310AD001C860E /* gramophone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = AD21EDCF2A0310AD001C860E /* gramophone.usdz */; };
 		AD21EDD32A045817001C860E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD21EDD22A045817001C860E /* DetailView.swift */; };
 		ADA80BB129F4018C00CB04C5 /* GekochtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA80BB029F4018C00CB04C5 /* GekochtView.swift */; };
 		ADA80BB329F401EF00CB04C5 /* Gekocht.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA80BB229F401EF00CB04C5 /* Gekocht.swift */; };
 		ADA80BB529F403A700CB04C5 /* GedeeldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA80BB429F403A700CB04C5 /* GedeeldView.swift */; };
 		ADA80BB729F403DC00CB04C5 /* Gedeeld.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA80BB629F403DC00CB04C5 /* Gedeeld.swift */; };
 		ADA80BB929F4149800CB04C5 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA80BB829F4149800CB04C5 /* SplashScreenView.swift */; };
-		ADE1F3972A1140B000B9E72F /* hawaii.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3942A1140B000B9E72F /* hawaii.usdz */; };
-		ADE1F3982A1140B000B9E72F /* salami.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3952A1140B000B9E72F /* salami.usdz */; };
-		ADE1F3992A1140B000B9E72F /* ananas.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3962A1140B000B9E72F /* ananas.usdz */; };
+		ADE1F3B12A12A59200B9E72F /* Stoel2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F39A2A12A59000B9E72F /* Stoel2.usdz */; };
+		ADE1F3B22A12A59200B9E72F /* Bank1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F39B2A12A59000B9E72F /* Bank1.usdz */; };
+		ADE1F3B32A12A59200B9E72F /* Bank3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F39C2A12A59000B9E72F /* Bank3.usdz */; };
+		ADE1F3B42A12A59200B9E72F /* Kruk5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F39D2A12A59000B9E72F /* Kruk5.usdz */; };
+		ADE1F3B52A12A59200B9E72F /* Schoen2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F39E2A12A59000B9E72F /* Schoen2.usdz */; };
+		ADE1F3B62A12A59200B9E72F /* Schoen3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F39F2A12A59100B9E72F /* Schoen3.usdz */; };
+		ADE1F3B72A12A59200B9E72F /* Kruk4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3A02A12A59100B9E72F /* Kruk4.usdz */; };
+		ADE1F3B82A12A59200B9E72F /* Stoel1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3A12A12A59100B9E72F /* Stoel1.usdz */; };
+		ADE1F3B92A12A59200B9E72F /* Stoel4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3A22A12A59100B9E72F /* Stoel4.usdz */; };
+		ADE1F3BA2A12A59200B9E72F /* Stoel5.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3A32A12A59100B9E72F /* Stoel5.usdz */; };
+		ADE1F3BB2A12A59200B9E72F /* Tafel2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3A42A12A59100B9E72F /* Tafel2.usdz */; };
+		ADE1F3BC2A12A59200B9E72F /* Kruk6.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3A52A12A59100B9E72F /* Kruk6.usdz */; };
+		ADE1F3BD2A12A59200B9E72F /* Kussen1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3A62A12A59100B9E72F /* Kussen1.usdz */; };
+		ADE1F3BE2A12A59200B9E72F /* Bank4.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3A72A12A59100B9E72F /* Bank4.usdz */; };
+		ADE1F3BF2A12A59200B9E72F /* Kruk3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3A82A12A59200B9E72F /* Kruk3.usdz */; };
+		ADE1F3C02A12A59200B9E72F /* Schoen1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3A92A12A59200B9E72F /* Schoen1.usdz */; };
+		ADE1F3C12A12A59200B9E72F /* Kussen2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3AA2A12A59200B9E72F /* Kussen2.usdz */; };
+		ADE1F3C22A12A59200B9E72F /* Kruk1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3AB2A12A59200B9E72F /* Kruk1.usdz */; };
+		ADE1F3C32A12A59200B9E72F /* Stoel3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3AC2A12A59200B9E72F /* Stoel3.usdz */; };
+		ADE1F3C42A12A59200B9E72F /* Tafel1.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3AD2A12A59200B9E72F /* Tafel1.usdz */; };
+		ADE1F3C52A12A59200B9E72F /* Tafel3.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3AE2A12A59200B9E72F /* Tafel3.usdz */; };
+		ADE1F3C62A12A59200B9E72F /* Kruk2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3AF2A12A59200B9E72F /* Kruk2.usdz */; };
+		ADE1F3C72A12A59200B9E72F /* Bank2.usdz in Resources */ = {isa = PBXBuildFile; fileRef = ADE1F3B02A12A59200B9E72F /* Bank2.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,16 +67,35 @@
 		AD21EDC92A02FD49001C860E /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		AD21EDCB2A030089001C860E /* CustomARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARView.swift; sourceTree = "<group>"; };
 		AD21EDCD2A0301DA001C860E /* CustomARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomARViewRepresentable.swift; sourceTree = "<group>"; };
-		AD21EDCF2A0310AD001C860E /* gramophone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = gramophone.usdz; sourceTree = "<group>"; };
 		AD21EDD22A045817001C860E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		ADA80BB029F4018C00CB04C5 /* GekochtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GekochtView.swift; sourceTree = "<group>"; };
 		ADA80BB229F401EF00CB04C5 /* Gekocht.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gekocht.swift; sourceTree = "<group>"; };
 		ADA80BB429F403A700CB04C5 /* GedeeldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GedeeldView.swift; sourceTree = "<group>"; };
 		ADA80BB629F403DC00CB04C5 /* Gedeeld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gedeeld.swift; sourceTree = "<group>"; };
 		ADA80BB829F4149800CB04C5 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
-		ADE1F3942A1140B000B9E72F /* hawaii.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = hawaii.usdz; sourceTree = "<group>"; };
-		ADE1F3952A1140B000B9E72F /* salami.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = salami.usdz; sourceTree = "<group>"; };
-		ADE1F3962A1140B000B9E72F /* ananas.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ananas.usdz; sourceTree = "<group>"; };
+		ADE1F39A2A12A59000B9E72F /* Stoel2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Stoel2.usdz; sourceTree = "<group>"; };
+		ADE1F39B2A12A59000B9E72F /* Bank1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bank1.usdz; sourceTree = "<group>"; };
+		ADE1F39C2A12A59000B9E72F /* Bank3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bank3.usdz; sourceTree = "<group>"; };
+		ADE1F39D2A12A59000B9E72F /* Kruk5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Kruk5.usdz; sourceTree = "<group>"; };
+		ADE1F39E2A12A59000B9E72F /* Schoen2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Schoen2.usdz; sourceTree = "<group>"; };
+		ADE1F39F2A12A59100B9E72F /* Schoen3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Schoen3.usdz; sourceTree = "<group>"; };
+		ADE1F3A02A12A59100B9E72F /* Kruk4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Kruk4.usdz; sourceTree = "<group>"; };
+		ADE1F3A12A12A59100B9E72F /* Stoel1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Stoel1.usdz; sourceTree = "<group>"; };
+		ADE1F3A22A12A59100B9E72F /* Stoel4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Stoel4.usdz; sourceTree = "<group>"; };
+		ADE1F3A32A12A59100B9E72F /* Stoel5.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Stoel5.usdz; sourceTree = "<group>"; };
+		ADE1F3A42A12A59100B9E72F /* Tafel2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Tafel2.usdz; sourceTree = "<group>"; };
+		ADE1F3A52A12A59100B9E72F /* Kruk6.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Kruk6.usdz; sourceTree = "<group>"; };
+		ADE1F3A62A12A59100B9E72F /* Kussen1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Kussen1.usdz; sourceTree = "<group>"; };
+		ADE1F3A72A12A59100B9E72F /* Bank4.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bank4.usdz; sourceTree = "<group>"; };
+		ADE1F3A82A12A59200B9E72F /* Kruk3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Kruk3.usdz; sourceTree = "<group>"; };
+		ADE1F3A92A12A59200B9E72F /* Schoen1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Schoen1.usdz; sourceTree = "<group>"; };
+		ADE1F3AA2A12A59200B9E72F /* Kussen2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Kussen2.usdz; sourceTree = "<group>"; };
+		ADE1F3AB2A12A59200B9E72F /* Kruk1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Kruk1.usdz; sourceTree = "<group>"; };
+		ADE1F3AC2A12A59200B9E72F /* Stoel3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Stoel3.usdz; sourceTree = "<group>"; };
+		ADE1F3AD2A12A59200B9E72F /* Tafel1.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Tafel1.usdz; sourceTree = "<group>"; };
+		ADE1F3AE2A12A59200B9E72F /* Tafel3.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Tafel3.usdz; sourceTree = "<group>"; };
+		ADE1F3AF2A12A59200B9E72F /* Kruk2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Kruk2.usdz; sourceTree = "<group>"; };
+		ADE1F3B02A12A59200B9E72F /* Bank2.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Bank2.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,37 +166,32 @@
 		AD20308629F5799D0000AA17 /* Modellen */ = {
 			isa = PBXGroup;
 			children = (
+				ADE1F39B2A12A59000B9E72F /* Bank1.usdz */,
+				ADE1F3B02A12A59200B9E72F /* Bank2.usdz */,
+				ADE1F39C2A12A59000B9E72F /* Bank3.usdz */,
+				ADE1F3A72A12A59100B9E72F /* Bank4.usdz */,
+				ADE1F3AB2A12A59200B9E72F /* Kruk1.usdz */,
+				ADE1F3AF2A12A59200B9E72F /* Kruk2.usdz */,
+				ADE1F3A82A12A59200B9E72F /* Kruk3.usdz */,
+				ADE1F3A02A12A59100B9E72F /* Kruk4.usdz */,
+				ADE1F39D2A12A59000B9E72F /* Kruk5.usdz */,
+				ADE1F3A52A12A59100B9E72F /* Kruk6.usdz */,
+				ADE1F3A62A12A59100B9E72F /* Kussen1.usdz */,
+				ADE1F3AA2A12A59200B9E72F /* Kussen2.usdz */,
+				ADE1F3A92A12A59200B9E72F /* Schoen1.usdz */,
+				ADE1F39E2A12A59000B9E72F /* Schoen2.usdz */,
+				ADE1F39F2A12A59100B9E72F /* Schoen3.usdz */,
+				ADE1F3A12A12A59100B9E72F /* Stoel1.usdz */,
+				ADE1F39A2A12A59000B9E72F /* Stoel2.usdz */,
+				ADE1F3AC2A12A59200B9E72F /* Stoel3.usdz */,
+				ADE1F3A22A12A59100B9E72F /* Stoel4.usdz */,
+				ADE1F3A32A12A59100B9E72F /* Stoel5.usdz */,
+				ADE1F3AD2A12A59200B9E72F /* Tafel1.usdz */,
+				ADE1F3A42A12A59100B9E72F /* Tafel2.usdz */,
+				ADE1F3AE2A12A59200B9E72F /* Tafel3.usdz */,
 				83147E9C28906DBA0038BE2A /* Assets.xcassets */,
-				AD20308929F579BB0000AA17 /* Gedeeld */,
-				AD20308829F579B40000AA17 /* Gekocht */,
-				AD20308729F579AA0000AA17 /* Openbaar */,
 			);
 			path = Modellen;
-			sourceTree = "<group>";
-		};
-		AD20308729F579AA0000AA17 /* Openbaar */ = {
-			isa = PBXGroup;
-			children = (
-				ADE1F3962A1140B000B9E72F /* ananas.usdz */,
-				ADE1F3942A1140B000B9E72F /* hawaii.usdz */,
-				ADE1F3952A1140B000B9E72F /* salami.usdz */,
-				AD21EDCF2A0310AD001C860E /* gramophone.usdz */,
-			);
-			path = Openbaar;
-			sourceTree = "<group>";
-		};
-		AD20308829F579B40000AA17 /* Gekocht */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Gekocht;
-			sourceTree = "<group>";
-		};
-		AD20308929F579BB0000AA17 /* Gedeeld */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Gedeeld;
 			sourceTree = "<group>";
 		};
 		AD20308A29FC1EC10000AA17 /* Openbaar */ = {
@@ -272,14 +305,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE1F3B42A12A59200B9E72F /* Kruk5.usdz in Resources */,
+				ADE1F3BC2A12A59200B9E72F /* Kruk6.usdz in Resources */,
 				83147EA028906DBA0038BE2A /* Preview Assets.xcassets in Resources */,
-				ADE1F3992A1140B000B9E72F /* ananas.usdz in Resources */,
 				83147E9D28906DBA0038BE2A /* Assets.xcassets in Resources */,
-				ADE1F3972A1140B000B9E72F /* hawaii.usdz in Resources */,
+				ADE1F3BE2A12A59200B9E72F /* Bank4.usdz in Resources */,
+				ADE1F3C32A12A59200B9E72F /* Stoel3.usdz in Resources */,
+				ADE1F3BB2A12A59200B9E72F /* Tafel2.usdz in Resources */,
+				ADE1F3B32A12A59200B9E72F /* Bank3.usdz in Resources */,
+				ADE1F3B52A12A59200B9E72F /* Schoen2.usdz in Resources */,
+				ADE1F3B82A12A59200B9E72F /* Stoel1.usdz in Resources */,
+				ADE1F3BF2A12A59200B9E72F /* Kruk3.usdz in Resources */,
+				ADE1F3B12A12A59200B9E72F /* Stoel2.usdz in Resources */,
 				83147EA928906F500038BE2A /* Inter-Bold.otf in Resources */,
-				ADE1F3982A1140B000B9E72F /* salami.usdz in Resources */,
+				ADE1F3C42A12A59200B9E72F /* Tafel1.usdz in Resources */,
+				ADE1F3B22A12A59200B9E72F /* Bank1.usdz in Resources */,
+				ADE1F3B72A12A59200B9E72F /* Kruk4.usdz in Resources */,
+				ADE1F3C02A12A59200B9E72F /* Schoen1.usdz in Resources */,
+				ADE1F3C52A12A59200B9E72F /* Tafel3.usdz in Resources */,
+				ADE1F3C62A12A59200B9E72F /* Kruk2.usdz in Resources */,
+				ADE1F3C22A12A59200B9E72F /* Kruk1.usdz in Resources */,
+				ADE1F3C12A12A59200B9E72F /* Kussen2.usdz in Resources */,
+				ADE1F3BA2A12A59200B9E72F /* Stoel5.usdz in Resources */,
+				ADE1F3B62A12A59200B9E72F /* Schoen3.usdz in Resources */,
+				ADE1F3C72A12A59200B9E72F /* Bank2.usdz in Resources */,
 				83147EAA28906F500038BE2A /* Inter-SemiBold.otf in Resources */,
-				AD21EDD02A0310AD001C860E /* gramophone.usdz in Resources */,
+				ADE1F3B92A12A59200B9E72F /* Stoel4.usdz in Resources */,
+				ADE1F3BD2A12A59200B9E72F /* Kussen1.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,15 +12,17 @@ struct Gekocht: Identifiable {
         
         var tasks = [Gekocht]()
         
-        tasks.append(Gekocht(title: "Magarita", filename: "magarita.usdz", tag1: "tag1", tag2: "tag2"))
-                tasks.append(Gekocht(title: "Mercedes", filename: "hawaii.usdz", tag1: "tag1", tag2: "tag2"))
-                tasks.append(Gekocht(title: "BMW", filename: "salami.usdz", tag1: "tag1", tag2: "tag2"))
-                tasks.append(Gekocht(title: "Susuki", filename: "ananas.usdz", tag1: "tag1", tag2: "tag2"))
-                tasks.append(Gekocht(title: "Tesla", filename: "grill.usdz", tag1: "tag1", tag2: "tag2"))
-                tasks.append(Gekocht(title: "Volvo", filename: "sate.usdz", tag1: "tag1", tag2: "tag2"))
-                tasks.append(Gekocht(title: "Honda", filename: "cheese.usdz", tag1: "tag1", tag2: "tag2"))
-                tasks.append(Gekocht(title: "Jeep", filename: "pepperoni.usdz", tag1: "tag1", tag2: "tag2"))
-                
-                return tasks
-            }
-        }
+        tasks.append(Gekocht(title: "Bank 1", filename: "Bank1.usdz", tag1: "woonkamer", tag2: "leer"))
+        tasks.append(Gekocht(title: "Bank 2", filename: "Bank2.usdz", tag1: "woonkamer", tag2: "stof"))
+        tasks.append(Gekocht(title: "Bank 3", filename: "Bank3.usdz", tag1: "woonkamer", tag2: "stof"))
+        tasks.append(Gekocht(title: "Bank 4", filename: "Bank4.usdz", tag1: "woonkamer", tag2: "kussens"))
+        tasks.append(Gekocht(title: "Stoel 1", filename: "Stoel1.usdz", tag1: "tafel", tag2: "hout"))
+        tasks.append(Gekocht(title: "Stoel 2", filename: "Stoel2.usdz", tag1: "tafel", tag2: "pvc"))
+        tasks.append(Gekocht(title: "Stoel 3", filename: "Stoel3.usdz", tag1: "eettafel", tag2: "hout"))
+        tasks.append(Gekocht(title: "Stoel 4", filename: "Stoel4.usdz", tag1: "laag", tag2: "stof"))
+        tasks.append(Gekocht(title: "Stoel 5", filename: "Stoel5.usdz", tag1: "tafel", tag2: "leer"))
+        
+        return tasks
+    }
+}
+

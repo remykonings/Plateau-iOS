@@ -12,12 +12,9 @@ struct Gedeeld: Identifiable {
         
         var tasks = [Gedeeld]()
         
-        tasks.append(Gedeeld(title: "Magarita", filename: "magarita.usdz", tag1: "tag1", tag2: "tag2"))
-                tasks.append(Gedeeld(title: "Tafel", filename: "hawaii.usdz", tag1: "tag1", tag2: "tag2"))
-                tasks.append(Gedeeld(title: "Stoel", filename: "salami.usdz", tag1: "tag1", tag2: "tag2"))
-                tasks.append(Gedeeld(title: "Boek", filename: "ananas.usdz", tag1: "tag1", tag2: "tag2"))
-                tasks.append(Gedeeld(title: "Kruk", filename: "grill.usdz", tag1: "tag1", tag2: "tag2"))
-                
-                return tasks
-            }
-        }
+        tasks.append(Gedeeld(title: "Kussen 1", filename: "Kussen1.usdz", tag1: "bank", tag2: "stof"))
+        tasks.append(Gedeeld(title: "Kussen 2", filename: "Kussen2.usdz", tag1: "vloer", tag2: "stof"))
+        
+        return tasks
+    }
+}
